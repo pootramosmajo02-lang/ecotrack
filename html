@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>EcoPerfil</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f0f8f5;
+      color: #333;
+    }
+    header {
+      background-color: #2e7d32;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      height: 50px;
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+    section {
+      padding: 20px;
+      margin: 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #2e7d32;
+    }
+    .boton, .volver {
+      display: inline-block;
+      margin: 10px 5px 0 0;
+      padding: 10px 15px;
+      background-color: #2e7d32;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .nivel {
+      font-weight: bold;
+      color: #1b5e20;
+    }
+    .tips li {
+      margin-bottom: 10px;
+    }
+    ul.menu {
+      list-style: none;
+      padding: 0;
+    }
+    ul.menu li a {
+      display: block;
+      margin: 10px 0;
+      padding: 10px;
+      background-color: #a5d6a7;
+      color: #1b5e20;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    ul.menu li a:hover {
+      background-color: #81c784;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="EcoLogo"> <span style="font-size: 1.5em;">EcoPerfil 🌿</span>
+  </header>
+
+  <!-- Pantalla Principal -->
+  <section id="inicio">
+    <h2>🌟 Bienvenida, mariajo</h2>
+    <p>Este es tu espacio ecológico personalizado. Aquí puedes ver tu perfil, recibir consejos para cuidar el planeta y revisar tu progreso ambiental.</p>
+    <ul class="menu">
+      <li><a href="#perfil">👤 Ver Perfil del Usuario</a></li>
+      <li><a href="#consejos">🌍 Consejos Ecológicos</a></li>
+      <li><a href="#estadisticas">📈 Estadísticas y Progreso</a></li>
+    </ul>
+  </section>
+
+  <!-- Pantalla de Perfil -->
+  <section id="perfil">
+    <h2>Perfil del Usuario</h2>
+    <img src="avatar.png" alt="Avatar del usuario" style="width:100px;border-radius:50%;">
+    <p><strong>Nombre:</strong> María José</p>
+    <p><strong>Nivel ecológico:</strong> <span class="nivel">Guardián del Planeta (301–600 pts)</span></p>
+    <a href="#inicio" class="volver">← Volver al inicio</a>
+  </section>
+
+  <!-- Pantalla de Consejos -->
+  <section id="consejos">
+    <h2>Consejos para cuidar el planeta 🌍</h2>
+    <ul class="tips">
+      <li>🌱 Evita imprimir si no es necesario.</li>
+      <li>🛍️ Lleva tu propia bolsa al supermercado.</li>
+      <li>🚰 Prefiere botellas reutilizables.</li>
+      <li>🚗 Usa transporte compartido.</li>
+      <li>🔌 Desconecta tus dispositivos cuando no los uses.</li>
+    </ul>
+    <a href="#inicio" class="volver">← Volver al inicio</a>
+  </section>
+
+  <!-- Pantalla de Estadísticas -->
+  <section id="estadisticas">
+    <h2>Estadísticas y Progreso</h2>
+    <div style="background:#c8e6c9;padding:15px;border-radius:10px;">
+      <p>📊 Has evitado <strong>3kg de CO₂</strong> este mes.</p>
+      <p>✅ Has completado <strong>15 acciones sostenibles</strong>.</p>
+      <p>🏅 Medalla desbloqueada: <em>Explorador Verde – Primera semana sin emisiones</em></p>
+    </div>
+    <a href="#inicio" class="volver">← Volver al inicio</a>
+  </section>
+
+</body>
+</html>
